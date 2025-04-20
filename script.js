@@ -1,3 +1,4 @@
+//exercise 1
 let number = promt("Enter a number:");
 number = Number(number);
 if (isNaN(number)){
@@ -8,11 +9,11 @@ else{
         alert("The number is even");
     }
     else{
-        alert("The number is not even")
+        alert("The number is not even");
     }
 }
 
-
+//Exercise 2
 let num1 = prompt("Enter the first number:");
 let num2 = prompt("Enter the second number:");
 let operator = prompt("Enter an operator:");
@@ -36,31 +37,31 @@ if (operator === "+") {
     result = "Invalid operator!";
 }
 
-alert("Result: " + result)
+alert("Result: " + result);
 
-
+//Exercise 3
 let age = prompt("Enter your age:");
 age = Number(age);
 
 if (age >= 18) {
     alert("Eligible");
 } else {
-    alert("Not eligible");
+    alert("You are not eligible to vote.");
 }
 
-
+//Exercise 4
 for (let i = 1; i <= 10; i++) {
     console.log(i);
 }
 
-
+//Exercise 5
 let num = prompt("Enter a number:");
 num = Number(num);
 for (let i = 1; i <= 12; i++) {
   console.log(`${num} x ${i} = ${num * i}`);
 }
 
-
+//Exercise 6
 let score = prompt("Enter your score (0-100):");
 score = Number(score);
 
@@ -74,7 +75,7 @@ if (score >= 70 && score <= 100) {
   alert("Invalid score. Please enter a number between 0 and 100.");
 }
 
-
+//Exercise 7
 let randomNumber = Math.floor(Math.random() * 5) + 1;
 let userGuess = prompt("Guess a number between 1 and 5:");
 userGuess = Number(userGuess);
@@ -85,7 +86,7 @@ else {
     alert("The correct number was " + randomNumber + ".");
 }
 
-
+//Exercise 8
 for (let i = 1; i <= 15; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
       console.log("FizzBuzz");
