@@ -1,0 +1,117 @@
+body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f7fa;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        
+        .quiz-container {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 600px;
+            padding: 30px;
+        }
+        
+        .question-container {
+            margin-bottom: 25px;
+        }
+        
+        .question-number {
+            color: #6c757d;
+            font-size: 15px;
+            margin-bottom: 10px;
+        }
+        
+        .question-text {
+            font-size: 22px;
+            font-weight: 500;
+            margin-bottom: 20px;
+            color: #343a40;
+        }
+        
+        .options-container {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-bottom: 30px;
+        }
+        
+        .option {
+            padding: 12px 15px;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            cursor: pointer;
+            background-color: #f8f9fa;
+        }
+        
+        .option:hover {
+            background-color: #e9ecef;
+            border-color: #dee2e6;
+        }
+        
+        .option.selected {
+            background-color: #d1e7dd;
+            border-color: #61a888;
+            color: #1d3f5f;
+            font-weight: bold;
+        }
+        
+        
+        .next-button {
+            background-color: #0d6efd;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            float: right;
+        }
+        
+        .next-button:hover {
+            background-color: #0b5ed7;
+        }
+        
+        .next-button:disabled {
+            background-color: #adb5bd;
+            cursor: not-allowed;
+        }
+        
+        .results-container {
+            text-align: center;
+            display: none;
+        }
+        
+        .results-title {
+            font-size: 25px;
+            margin-bottom: 35px;
+            color: #343a40;
+        }
+        
+        .score {
+            font-size: 35px;
+            font-weight: bold;
+            color: #1a1dd1;
+            margin-bottom: 10px;
+        }
+        
+        .restart-button {
+            background-color: #198754;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 15px;
+            margin-top: 20px;
+            
+        }
+        
+        .restart-button:hover {
+            background-color: #286648;
+        }
